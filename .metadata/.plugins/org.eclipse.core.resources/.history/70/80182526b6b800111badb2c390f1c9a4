@@ -1,0 +1,23 @@
+package demo;
+
+public class Demo{	
+
+	 
+	public static void main(String[] args) {
+		
+		//Second smallest Number
+		int [] arr = {5, 2, 8, 3, 1};
+		int smallest=arr[0];
+		
+		for(int i=0;i<arr.length;i++) {
+			
+			if(arr[i] < smallest) {
+				smallest=arr[i];
+			}
+			
+		}
+		System.out.println(smallest);
+		
+	}
+	
+}

@@ -1,0 +1,16 @@
+package stringAnagramOrNot;
+
+public class Anagram {
+
+	public static void main(String[] args) {
+		
+		String str1 = "listen";
+		String str2 = "silent";
+		
+		// First check length
+		if(str1.length() != str2.length()) {
+			System.out.println("Not anagrams");
+		}
+		
+	}
+}

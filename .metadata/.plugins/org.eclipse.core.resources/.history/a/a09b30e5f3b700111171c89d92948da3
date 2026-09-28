@@ -1,0 +1,11 @@
+package countWords;
+
+public class CountWords {
+
+	public static void main(String[] args) {
+		
+		String str="Java Is Easy";
+		
+		str.split(" ");
+	}
+}

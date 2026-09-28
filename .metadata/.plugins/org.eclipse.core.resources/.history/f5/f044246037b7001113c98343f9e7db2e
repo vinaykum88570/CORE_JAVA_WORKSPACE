@@ -1,0 +1,17 @@
+package demo;
+
+public class Demo{	
+
+	 
+	public static void main(String[] args) {
+		
+		  
+        String s1 = " Hello";
+        int len = s1.length();
+        
+        for(int i=1;i<=len;i++) {
+        	
+        }
+	}
+	
+}

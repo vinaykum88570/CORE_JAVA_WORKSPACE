@@ -1,0 +1,30 @@
+1] Firstly we chose want you want 
+  - Registrarion 
+  - View Information 
+  - Update Info
+
+Registration 
+=========
+- we are generating  a getter setter  
+- id 
+- fname
+- lname
+- gender
+- collageName
+- email
+- mobileno
+- password
+- Data store into the database In database Id automatically generate.
+- If you see your Info then Id must me require.
+
+View info
+=========
+- To put your generated id
+- If your id password are thre and match 
+- Student hopfully see our Information
+
+
+Update Info
+==========
+- 
+-

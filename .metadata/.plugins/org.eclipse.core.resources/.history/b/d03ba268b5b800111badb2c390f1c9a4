@@ -1,0 +1,19 @@
+package demo;
+
+public class Demo{	
+
+	 
+	public static void main(String[] args) {
+		
+		//Second smallest Number
+		int [] arr = {5, 2, 8, 3, 1};
+		int largest=arr[1];
+		
+		for(int i=0;i<arr.length;i++) {
+			
+			
+		}
+		
+	}
+	
+}

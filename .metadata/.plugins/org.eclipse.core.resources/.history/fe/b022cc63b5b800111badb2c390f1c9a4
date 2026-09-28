@@ -1,0 +1,14 @@
+package demo;
+
+public class Demo{	
+
+	 
+	public static void main(String[] args) {
+		
+		//Second smallest Number
+		int [] arr = {5, 2, 8, 3, 1};
+		
+		
+	}
+	
+}

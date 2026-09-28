@@ -1,0 +1,11 @@
+package reverseEachWord;
+
+public class ReverseEachWord {
+
+	public static void main(String[] args) {
+		
+		String str = "Java Is Easy";
+		
+		String[] words = str.split(str);
+	}
+}

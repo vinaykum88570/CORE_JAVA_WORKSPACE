@@ -1,0 +1,11 @@
+package dupCharInString;
+
+public class DuplicateCharInString {
+	
+	public static void main(String[] args) {
+		
+		String str = "programming";
+		
+	}
+	
+}

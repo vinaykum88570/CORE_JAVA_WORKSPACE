@@ -1,0 +1,12 @@
+package frequencyOfElement;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class FrequencyOfElement {
+
+	public static void main(String[] args) {
+		
+		 ArrayList<Integer> list = new ArrayList<>(Arrays.asList(10,20,30,40,50));
+	}
+}

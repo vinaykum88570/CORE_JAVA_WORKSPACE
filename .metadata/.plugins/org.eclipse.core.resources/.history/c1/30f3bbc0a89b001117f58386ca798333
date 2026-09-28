@@ -1,0 +1,34 @@
+package Pr1;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
+
+
+// Implementing Chacked Exception  
+public class Democon  {
+
+	public static void main(String[] args) {
+	
+		
+		List<String> list = new ArrayList<String>();
+		list.add("A");
+		list.add("B");
+		list.add("C");
+		list.add("D");
+		
+		Iterator<String> it = list.iterator();
+		while(it.hasNext()) {
+			it.next();
+		}
+		
+		
+	}
+	
+}
+
+
+

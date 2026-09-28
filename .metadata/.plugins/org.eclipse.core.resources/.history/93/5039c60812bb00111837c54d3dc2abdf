@@ -1,0 +1,17 @@
+package tables;
+
+import javax.sql.rowset.serial.SQLOutputImpl;
+
+public class Table19 {
+	 public static void main(String[] args) {
+	        int number =19;
+	        int limits =10;
+	        for(int i=1; i<=limits;i++){
+	            System.out.println(number*i);
+	        }
+	        System.out.println(".");
+	        
+
+	    }
+	 
+}

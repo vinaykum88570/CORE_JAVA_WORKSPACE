@@ -17,6 +17,7 @@ public class RemoveDuplicate {
 	        
 	        HashSet<Integer> set = new HashSet<Integer>(list);
 	        System.out.println(set);
+	        System.out.println("Git");
 	        
 	}
 }

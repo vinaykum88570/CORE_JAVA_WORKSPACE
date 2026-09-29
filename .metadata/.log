@@ -6786,3 +6786,24 @@ org.eclipse.jgit.errors.TransportException: https://github.com/vinaykum88570/COR
 
 !ENTRY org.eclipse.egit.ui 4 0 2026-09-28 16:44:24.453
 !MESSAGE Can't connect to any repository: https://github.com/vinaykum88570/CORE_JAVA_WORKSPACE.git (https://github.com/vinaykum88570/CORE_JAVA_WORKSPACE.git: not authorized)
+
+!ENTRY org.eclipse.jface 2 0 2026-09-28 17:03:16.091
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-09-28 17:03:16.091
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

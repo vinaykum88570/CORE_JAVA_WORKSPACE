@@ -1,4 +1,4 @@
-package Pr1;
+package oct2;
 
 
 interface MethodRef{

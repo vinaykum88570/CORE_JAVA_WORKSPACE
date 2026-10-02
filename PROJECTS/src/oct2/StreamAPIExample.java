@@ -1,4 +1,4 @@
-package Pr1;
+package oct2;
 
 import java.util.ArrayList;
 import java.util.stream.Stream;

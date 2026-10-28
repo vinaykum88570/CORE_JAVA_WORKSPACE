@@ -1,0 +1,18 @@
+package Pr1;
+
+import java.util.StringTokenizer;
+
+
+
+// Implementing Chacked Exception  
+public class Democon  {
+
+	public static void main(String[] args) {
+	
+	
+	}
+	
+}
+
+
+

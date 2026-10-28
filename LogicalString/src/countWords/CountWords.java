@@ -1,0 +1,13 @@
+package countWords;
+
+public class CountWords {
+
+	public static void main(String[] args) {
+		
+		String str="Java Is Easy";
+		
+		String[] words = str.split(" ");
+		
+		System.out.println(words.length);
+	}
+}

@@ -1,0 +1,21 @@
+package findLargestElement;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class FindLargestElement {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> list = new ArrayList<>(Arrays.asList(10,50,20,40));
+		
+		int largest = list.get(0);
+		
+		for(int i=1;i<list.size();i++) {
+			if(list.get(i)>largest) {
+				largest=list.get(i);
+			}
+		}
+		System.out.println(largest);
+	}
+}

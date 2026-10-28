@@ -21,5 +21,7 @@ public class ArmstrongOrNot {
             System.out.println("NUMBER IS NOT ARMSTRONG");
         }
 		
+		
+		
 	}
 }

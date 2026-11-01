@@ -1,6 +1,6 @@
 package printArray;
 
-public class CountNumber {
+public class CountNumberOccurs {
 
 	public static void main(String[] args) {
 		

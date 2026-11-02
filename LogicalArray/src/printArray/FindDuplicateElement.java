@@ -15,7 +15,7 @@ public class FindDuplicateElement {
 
 					System.out.println("Duplicate Element = "+arr[i]);
 				}
-			}
+			}		
 		}
 	}
 }

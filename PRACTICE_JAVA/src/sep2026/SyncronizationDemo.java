@@ -18,7 +18,7 @@ public class SyncronizationDemo{
 	       Demo d = new Demo();
 	       d.start();
 	       for(int i=10;i>=1;i--) {
-	    	   System.out.println(Thread.currentThread().getState());
+	    	   System.out.println(Thread.currentThread());
 	    	   System.out.println(i);
 	    	}
 	}

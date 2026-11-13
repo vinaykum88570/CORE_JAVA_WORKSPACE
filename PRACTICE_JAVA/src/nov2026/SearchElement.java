@@ -6,7 +6,7 @@ public class SearchElement {
 		// Search Element
 		int[] arr = {10, 20, 30, 40, 50};
 		
-		int search=60;
+		int search = 20;
 		boolean found=false;
 		
 		for(int i=0;i<arr.length;i++) {
@@ -17,10 +17,26 @@ public class SearchElement {
 		}
 		
 		if(found) {
-			System.out.println("found ="+search);
+			System.out.println("found  "+ search);
 		}
-		else {
+		else{
 			System.out.println("Not Found");
 		}
+//		int search=60;
+//		boolean found=false;
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			if(arr[i]==search) {
+//				found=true;
+//				break;
+//			}
+//		}
+//		
+//		if(found) {
+//			System.out.println("found ="+search);
+//		}
+//		else {
+//			System.out.println("Not Found");
+//		}
 	}
 }

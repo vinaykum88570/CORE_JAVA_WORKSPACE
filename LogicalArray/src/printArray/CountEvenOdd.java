@@ -4,7 +4,7 @@ public class CountEvenOdd {
 
 	public static void main(String[] args) {
 		
-		  int[] arr = {10, 15, 20, 7, 8, 11};
+		  int[] arr = {10, 15, 20, 7, 8, 11, 13, 15};
 		  
 		  int even = 0;
 		  int odd = 0;
